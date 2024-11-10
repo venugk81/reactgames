@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.board-container{
+  margin: 20px;
+}
+.square1 {
+  border: 5px ;
+  border-color: red;
+  background-color: rgb(14, 207, 237);
+  border-radius: 10%;
+  box-shadow: 0px 0px 8px #888;
+  width: 6rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  line-height: 5rem;
+  margin: 0.5rem;
+  align-content: center;
+  cursor: pointer;
+  text-wrap: inherit;
+  color: black;
+}
+
+.board-row {
+  display: flex;
+  align-items: center;
+}
+
+.dice-styles{
+  border: 5px ;
+  border-color: rgb(170, 255, 0);
+  background-color: #13d1ea;
+  border-radius: 10%;
+  box-shadow: 0px 0px 8px #3704b8;
+  width: 20rem;
+  height: 16rem;
+  text-align: center;
+  font-size: 10rem;
+  font-family: "Fredoka", sans-serif;
+  color: rgb(225, 28, 123);
+  font-weight: bold;
+  line-height: 5rem;
+  margin: 1rem;
+  align-content: center;
+  cursor: pointer;
+  text-wrap: inherit;
+  
+
+}
+
+.disabled {
+  background-color: #13d1ea;
+  color: red;
+  cursor: not-allowed;
+}
